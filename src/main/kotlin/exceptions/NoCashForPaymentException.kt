@@ -1,4 +1,4 @@
 package exceptions
 
-class NoBalanceForPaymentException(message: String = "Saldo indisponível para esta transação") :
+class NoCashForPaymentException(message: String = "Saldo indisponível para esta transação") :
     RuntimeException(message)
